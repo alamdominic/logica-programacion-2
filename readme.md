@@ -24,8 +24,14 @@ Este proyecto es una sencilla aplicación web que permite al usuario ingresar un
 ---
 
 ## Estructura del proyecto
+/ (raíz del proyecto)
+│
+├── index.html # Archivo principal HTML
+├── index.css # Estilos CSS para la página y tarjetas
+└── index.js # Lógica JavaScript para la conversión y manipulación del DOM
 
-Próximas mejoras
+
+## Próximas mejoras
 Añadir animaciones y transiciones a las tarjetas.
 Permitir conversión en ambas direcciones (Fahrenheit o Kelvin a Celsius).
 Mejorar el diseño con más estilos y responsividad.
