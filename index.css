@@ -1,0 +1,36 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+orderedList {
+    /* Para que la lista completa se centre */
+    display: inline-block; /* O block y margin: auto */
+    text-align: center; /* Esto hará que el texto dentro de la lista se alinee a la izquierda, incluyendo los números */
+}
+
+.unorderedList li {
+    text-align: center; /* Asegura que cada elemento de la lista esté alineado a la izquierda */
+}
+ul {
+    list-style-type: none;
+}
+
+button{
+    margin-top: 20px;
+}
+.contenedor-tarjetas {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.tarjeta {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
