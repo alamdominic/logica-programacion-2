@@ -2,25 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Conversion de temperaturas</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Conversión de Temperaturas</title>
 </head>
 
-<body>
-    <h1>Conversion de temperaturas</h1>
-    <h2>Instrucciones:</h2>
-    <ul class="orderedList">
-        <li>1. Ingresa la temperatura en grados celcius</li>
-        <li>2. Dale click a submit</li>
-    </ul>
-    <br>
-    <label for="number"></label>
-    <input name="number" id="number" type="number" placeholder="Ejemplo: 50" required>
-    <br>
-    <button onclick="startConvertion()">Haz clic aquí para comenzar</button>
-    <div id="resultado" class="contenedor-tarjetas" style="display: none;"></div>
+<body class="ios-app">
+    <div class="app-container">
+        <h1>🌤️ Conversor de temperatura</h1>
+        <h2>Instrucciones:</h2>
+        <ul class="orderedList">
+            <li>1. Ingresa la temperatura en grados Celsius</li>
+            <li>2. Haz clic en el botón</li>
+        </ul>
+
+        <input name="number" id="number" type="number" placeholder="Ejemplo: 25°C" required />
+
+        <button onclick="startConvertion()">Convertir Temperatura</button>
+
+        <div id="resultado" class="contenedor-tarjetas" style="display: none;"></div>
+    </div>
 
     <script src="index.js"></script>
 </body>
